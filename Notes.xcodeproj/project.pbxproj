@@ -13,6 +13,8 @@
 		747CFFAE21BADADC0031F7F3 /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 747CFFAC21BADADC0031F7F3 /* Notes.xcdatamodeld */; };
 		747CFFB021BADADD0031F7F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747CFFAF21BADADD0031F7F3 /* Assets.xcassets */; };
 		747CFFB321BADADD0031F7F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747CFFB121BADADD0031F7F3 /* LaunchScreen.storyboard */; };
+		74FE659821BF65F600F51620 /* CustomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE659721BF65F600F51620 /* CustomeCollectionViewCell.swift */; };
+		74FEC61A21BB8E8600368150 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC61921BB8E8600368150 /* AddNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		747CFFAF21BADADD0031F7F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		747CFFB221BADADD0031F7F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		747CFFB421BADADD0031F7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74FE659721BF65F600F51620 /* CustomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		74FEC61921BB8E8600368150 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				747CFFB121BADADD0031F7F3 /* LaunchScreen.storyboard */,
 				747CFFB421BADADD0031F7F3 /* Info.plist */,
 				747CFFAC21BADADC0031F7F3 /* Notes.xcdatamodeld */,
+				74FEC61921BB8E8600368150 /* AddNoteViewController.swift */,
+				74FE659721BF65F600F51620 /* CustomeCollectionViewCell.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74FEC61A21BB8E8600368150 /* AddNoteViewController.swift in Sources */,
 				747CFFA821BADADC0031F7F3 /* ViewController.swift in Sources */,
 				747CFFAE21BADADC0031F7F3 /* Notes.xcdatamodeld in Sources */,
 				747CFFA621BADADC0031F7F3 /* AppDelegate.swift in Sources */,
+				74FE659821BF65F600F51620 /* CustomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

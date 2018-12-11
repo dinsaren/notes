@@ -10,4 +10,6 @@ import UIKit
 
 class CustomeCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var noteTitleLabel: UILabel!
+    @IBOutlet weak var noteDesTextView: UITextView!
 }
